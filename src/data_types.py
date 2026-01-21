@@ -1,0 +1,33 @@
+class DataTypes:
+    """Bevat dictionaries met datatypes hoe Azure ML-datasets moeten worden ingelezen in een Pandas DataFrame."""
+
+    all_datatypes = {
+        "d_huurovereenkomst": "Int64",
+        "bk_huurovereenkomst": "object",
+        "survival_hovk_begindatum": "object",
+        "startjaar_huurovereenkomst": "Int64",
+        "survival_hovk_einddatum": "object",
+        "huurovereenkomst_statusnaam": "object",
+        "debiteur_type": "object",
+        "bk_eenheid": "object",
+        "eenheidnaam": "object",
+        "eenheiddetailsoortnaam": "object",
+        "aantal_kamers": "Int64",
+        "woningtype": "object",
+        "opleverdatum": "object",
+        "opleverjaarcategorie": "object",
+        "gemeentenaam": "object",
+        "cbs_wijknaam": "object",
+        "cbs_buurtnaam": "object",
+        "etagenummer": "Int64",
+        "daebnaam": "object",
+        "vestigingsnaam": "object",
+        "lift_aanwezig_indicator": "Int64",
+        "gebruiksoppervlak": "Int64",
+        "min_geboortedatum": "object",
+        "max_geboortedatum": "object",
+        "percentage_man": "float64",
+        "aantal_contractant_medebewoner": "Int64",
+        "aanvangshuurbedrag": "float64",
+        "huurklasse_code_aanvang": "object",
+    }
