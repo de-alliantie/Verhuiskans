@@ -110,7 +110,6 @@ logs/*
 *.csv
 *.pickle
 *.pkl
-*.png
 
 # exclude reports from source control by default
 /reports/
